@@ -14,4 +14,8 @@ public class Contact {
   public String getPhone() {
     return phone;
   }
+
+  public String toString() {
+    return "Name: " + this.name + ", Phone: " + this.phone;
+  }
 }
